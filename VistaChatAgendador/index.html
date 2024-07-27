@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Agendador</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .top-section {
+            text-align: center;
+            padding: 40px 0;
+            border: none;
+        }
+
+        .logo {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 2.5em;
+        }
+
+        .chat-box {
+            margin: 20px auto;
+            padding: 20px;
+            margin-top: -20px;
+            max-width: 500px;
+            width: 100%;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top-section">
+        <img src="LogoLetrasBlancasSinFondo.png" alt="Logo" class="logo">
+        <h1 class="title">Habla con <span id="irinATitle" class="font-exo2">IrinA</span></h1>
+    </div>
+    <div class="chat-box" data-chat-number='1'></div>
+    <script src="funciones_v1.js"></script>
+</body>
+</html>
