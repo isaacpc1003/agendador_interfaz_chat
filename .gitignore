@@ -1,0 +1,5 @@
+# Ignorar el entorno virtual .venv
+.venv/
+
+# Ignorar todas las carpetas __pycache__ en el directorio Backend
+Backend/**/__pycache__/
